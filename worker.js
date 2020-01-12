@@ -21,7 +21,7 @@ var html = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
   <link rel="icon" href="//pps.whatsapp.net/v/t61.24694-24/57411716_1849455151823007_5453479623960559616_n.jpg?oe=5E23CB10&oh=b5a9c30b17338f29c51e1ee7631eccf2">
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/FLMGroup/gd-index@${authConfig.version}/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/FLMGroup/gd-index@latest/app.js"></script>
   </head>
 <body>
 </body>
