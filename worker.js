@@ -1,12 +1,12 @@
 var authConfig = {
-	"siteName": "FLMGdrive", // Site Name
-	"root_pass": "", // Root Password
-	"version": "2.0", // Site Version
-	"theme": "material", // material  classic 
-    "client_id": "202264815644.apps.googleusercontent.com", // Google Client ID
-    "client_secret": "", // Google Client Secret
-	"refresh_token": "", // Refresh token    "root": "root" // Root directory
-	"root": "root" // Root directory
+    "siteName": "FLMGdrive", // Site Name
+    "root_pass": "FLMGroup",  // Root Password
+    "version" : "1.0.6", // Site Version
+    "theme" : "material", // material  classic 
+    "client_id": "202264815644.apps.googleusercontent.com",
+    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
+    "refresh_token": "INI DIISI", // Refresh Token
+    "root": "root" // Root directory
 };
 
 var gd;
@@ -20,9 +20,8 @@ var html = `
   <meta name="googlebot" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <link rel="icon" href="//pps.whatsapp.net/v/t61.24694-24/57411716_1849455151823007_5453479623960559616_n.jpg?oe=5E23CB10&oh=b5a9c30b17338f29c51e1ee7631eccf2">
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/FLMGroup/gd-index@latest/app.js"></script>
-  </head>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/FLMGroup/gd-index/app.js"></script>
+</head>
 <body>
 </body>
 </html>
@@ -140,7 +139,7 @@ class googleDrive {
       return obj.files[0];
     }
 
-    // reqeust cache
+    // Request Cache
     async list(path){
       let id = await this.findPathId(path);
       return this._ls(id);
