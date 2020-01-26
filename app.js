@@ -352,7 +352,7 @@ function markdown(el, data) {
 		$(el).show().html(html);
 	}
 }
-document.write('<script src="//cdn.jsdelivr.net/gh/FLMGroup/gd-index@latest/cari.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/fajarFWD/GOI@latest/cari.js"></script>');
 // Listening back event
 window.onpopstate = function () {
 	var path = window.location.pathname;
