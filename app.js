@@ -10,7 +10,7 @@ function init() {
 	document.siteName = $('title').html();
 	$('body').addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
 	var html = `
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Judul..." title="Cari Judul...">
 <header class="mdui-appbar mdui-color-theme"> 
    <div id="nav" class="mdui-toolbar mdui-container">
    </div> 
@@ -56,7 +56,7 @@ function nav(path) {
 		}
 	}
 	html += `<div class="mdui-toolbar-spacer"></div>
-    <a href="https://fb.me/fwapdev" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'GoIndex on Github'}">
+    <a href="https://fb.me/fwapdev" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'FWAPDeveloper'}">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5
 	c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
@@ -77,13 +77,13 @@ function list(path) {
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
 	    <div class="mdui-col-xs-12 mdui-col-sm-7">
-	     File Name
+	     Nama Berkas
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-	     Time of Creation
-	    </div> 
+	     Diunggah pada
+	    </div>
 	    <div class="mdui-col-sm-2 mdui-text-right">
-	     Size
+	     Ukuran
 	    </div> 
 	    </li> 
 	  </ul> 
